@@ -1,384 +1,459 @@
 [[glmnet]]
 arch = "aarch64"
-git-tree-sha1 = "8a959b5c67a1f0f2b4552aade22e68dd92a51c41"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "bb6bab45c966c82093fcde3c643b9581f72c9924ee9612bbd8ae3d943de87a7e"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.aarch64-linux-gnu-libgfortran3.tar.gz"
-[[glmnet]]
-arch = "aarch64"
-git-tree-sha1 = "71acc71cc01b78d602d4ade9b27466df039565e7"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "54fb4fec12d28d5f5e391fd1e7f8fd7fdbf85cad9396d7a2ccd267e5a351c410"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.aarch64-linux-gnu-libgfortran4.tar.gz"
-[[glmnet]]
-arch = "aarch64"
-git-tree-sha1 = "3da345f075520954150f81731b9c45751490960e"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "f16146184632fd57acedb4353c59b7d5177e3ad9048faeb432e1bbee1e046ae9"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.aarch64-linux-gnu-libgfortran5.tar.gz"
-[[glmnet]]
-arch = "aarch64"
-git-tree-sha1 = "efae8bd059a225a9f5b514b79bf484402e9f805e"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "a4f78a4eee3c942138269a5c3361b1dae26305028ebaecc75a7f14f9b659ba37"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.aarch64-linux-musl-libgfortran3.tar.gz"
-[[glmnet]]
-arch = "aarch64"
-git-tree-sha1 = "3d0b3d0d4bb6d484a3e41352425e1e93e04865f4"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "1ad6c10c0841a56c8e90c70e5985532c0d1f1879e6cbf58c6baa09de089c2f88"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.aarch64-linux-musl-libgfortran4.tar.gz"
-[[glmnet]]
-arch = "aarch64"
-git-tree-sha1 = "41599e9363117c4f1ccda3d8e60323af03edfac7"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "06d0236e23c875c7d9e9a9ce73f5a0cc1f687f2f789473a312a1752bc1a60204"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.aarch64-linux-musl-libgfortran5.tar.gz"
-[[glmnet]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "5e74e591f27ce55a7b976966053d27ad372e4ba1"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "b48fc61f433ffb326ca1da0ef03a32b50a70c20a9d36c0f5cf8b9d7b56e2ad14"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
-[[glmnet]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "ce7f83a46093d18fc5beb29441da4dd8efa7ee5c"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "f706a7751545e3852eed3efa84bcd3c3ba852abc3f1340b031a20135057b063a"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
-[[glmnet]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "c1e4bd32b82c6c47e9dc13ff12babdb758c7b2d9"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "ec06c47a0f5dee14bfec8e77786fab990bc4f2dbb6351717e223986a383cd805"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
-[[glmnet]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "af075c13c140f52ab409f8f1b51d8ddf30f63ebd"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "01aacd8e82a8ce93b62fe6b62e32550a4cf60175632821f4fc818ea9085fe765"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.armv7l-linux-musleabihf-libgfortran3.tar.gz"
-[[glmnet]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "5e2c1fe1f9a018f149a7bc3787f319d43707c004"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "f5c2c904c5ac8a9ff2b9fab74b4b8c2e9472eb494f87fbc356d9355a4fd5da0e"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.armv7l-linux-musleabihf-libgfortran4.tar.gz"
-[[glmnet]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "9f143e1ff1b44f0a5b1072a9f5126511d7f10b37"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "26d0d26fc2387f79442086d671e639f10df883021d03a2e06059e4a59e4e0a67"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.armv7l-linux-musleabihf-libgfortran5.tar.gz"
-[[glmnet]]
-arch = "i686"
-git-tree-sha1 = "48b5ac8448216b5233d46f83fd727d8fe28d6828"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "4ca929eb721bcdf965a3d4477f47a17ec6ed4d791ac69b14fb895b3842980f14"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.i686-linux-gnu-libgfortran3.tar.gz"
-[[glmnet]]
-arch = "i686"
-git-tree-sha1 = "f42bc6e98c6f97a90b9c508cd7c8248be55321d0"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "4c3b26ad412f5788c9959d436a5b6524abe5ca30402d587468560d412cb2e9f8"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.i686-linux-gnu-libgfortran4.tar.gz"
-[[glmnet]]
-arch = "i686"
-git-tree-sha1 = "4d2a8de639095baf87ceee1851bda741ed7ddf65"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "033ec49a1cff197a34441609c10cecab93c22d9257298514a20d36699e4488de"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.i686-linux-gnu-libgfortran5.tar.gz"
-[[glmnet]]
-arch = "i686"
-git-tree-sha1 = "b87d933643edbb49338b0e89ca99e554272f3586"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "4581b69293caed689f3e134ec8658e2f4d4d913829f741a894d78e7a4d33ae61"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.i686-linux-musl-libgfortran3.tar.gz"
-[[glmnet]]
-arch = "i686"
-git-tree-sha1 = "94fff778ef849c99305653528a8325374c698fe4"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "0b2d4822b9808080a61b3a1b87b742b1b67f512a24f6798efcbf4dc35587dfcb"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.i686-linux-musl-libgfortran4.tar.gz"
-[[glmnet]]
-arch = "i686"
-git-tree-sha1 = "11e0beff58d871aa8fa7c96a827ee202b6f222c1"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "eaa4b951c83bbcc6a7a2e72f1b8e2717feb3df2bc4e581477927b51dcca15e3b"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.i686-linux-musl-libgfortran5.tar.gz"
-[[glmnet]]
-arch = "i686"
-git-tree-sha1 = "6c8e8c9c6e768269f3b4667658996ef0db6476fc"
-libgfortran_version = "3.0.0"
-os = "windows"
-
-    [[glmnet.download]]
-    sha256 = "14d41c134a0e3eecadad6e0297f83c396e8dc2148c50542e85e517ff39b61988"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.i686-w64-mingw32-libgfortran3.tar.gz"
-[[glmnet]]
-arch = "i686"
-git-tree-sha1 = "aca474e7bba8e988cfe66db688b9a3f96a8661de"
-libgfortran_version = "4.0.0"
-os = "windows"
-
-    [[glmnet.download]]
-    sha256 = "5ee7bdcf597437d9f4d8c5937720bd901bbbf76b5e4d46d9a31161bdfbbe31db"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.i686-w64-mingw32-libgfortran4.tar.gz"
-[[glmnet]]
-arch = "i686"
-git-tree-sha1 = "2de8dd8e01143036e3678bcde05501bbdd87f6fd"
-libgfortran_version = "5.0.0"
-os = "windows"
-
-    [[glmnet.download]]
-    sha256 = "65a5c4814a1bd7f9dc868b54cf0650681b24773b0d7b4b21075c0c1400260193"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.i686-w64-mingw32-libgfortran5.tar.gz"
-[[glmnet]]
-arch = "powerpc64le"
-git-tree-sha1 = "1046169d55a88d79bdc356f911ccdec1464c9a79"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "9d738df7979553c92e5e47864c43a8ba42054ed18b045fcb9c5be14e052998b6"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.powerpc64le-linux-gnu-libgfortran3.tar.gz"
-[[glmnet]]
-arch = "powerpc64le"
-git-tree-sha1 = "570757f1371da53acf0acc2362744975f99c89ac"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "1c35d6301e17fca7acf6b412db8586d01105be78101795fe465e5543b8cba344"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.powerpc64le-linux-gnu-libgfortran4.tar.gz"
-[[glmnet]]
-arch = "powerpc64le"
-git-tree-sha1 = "966d11e4f517110e8de552b01a59058646aed298"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[glmnet.download]]
-    sha256 = "8baadd355def1cbb032419ce9362d544880e98dd75f044cb1efc64155158c56a"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.powerpc64le-linux-gnu-libgfortran5.tar.gz"
-[[glmnet]]
-arch = "x86_64"
-git-tree-sha1 = "fa29b86183f1c59cb46197d720a56a67887a4336"
-libgfortran_version = "3.0.0"
-os = "macos"
-
-    [[glmnet.download]]
-    sha256 = "96a7dd862f7560d50bbd91b1dfd3e916adb2b3ace8b796b20a6feef48472bd97"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-apple-darwin-libgfortran3.tar.gz"
-[[glmnet]]
-arch = "x86_64"
-git-tree-sha1 = "5d34731b8439fbc8c1fd471fb660af32904d6867"
-libgfortran_version = "4.0.0"
-os = "macos"
-
-    [[glmnet.download]]
-    sha256 = "a2682518ac6dbd95bbc79a45b46da3fdca89407bf27b4d8f75fdc4a51dd1d585"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-apple-darwin-libgfortran4.tar.gz"
-[[glmnet]]
-arch = "x86_64"
-git-tree-sha1 = "d02e20d592882313129f6513f4382bc974134210"
+git-tree-sha1 = "0d8a34113185c694d1c76ab2fa69ecfb3d8e344b"
 libgfortran_version = "5.0.0"
 os = "macos"
 
     [[glmnet.download]]
-    sha256 = "21d438f55b19e0f80b5999abb7f0edcfa6cd829c557356f6408167caecc103d4"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-apple-darwin-libgfortran5.tar.gz"
+    sha256 = "598cd512d48a7e479e46ededdf41b360afeaf8c216bc53c01fadc7d90b525cf6"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.aarch64-apple-darwin-libgfortran5.tar.gz"
 [[glmnet]]
-arch = "x86_64"
-git-tree-sha1 = "383e73b51f5db98209d359d56ec0e46d0141e9c6"
+arch = "aarch64"
+git-tree-sha1 = "4138c864d9279ab6101ff0cf81ac9ea6562971b3"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[glmnet.download]]
-    sha256 = "0ddf7f9844f4c46f11dcfa9df13d97030530117ddc70f47714f7d03fa9e64809"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-linux-gnu-libgfortran3.tar.gz"
+    sha256 = "71abb20a4a9a3834077e51e7b9dbc809ad3e5d5779a192a1d844a897b31b7ebb"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.aarch64-linux-gnu-libgfortran3.tar.gz"
 [[glmnet]]
-arch = "x86_64"
-git-tree-sha1 = "1a06cddb6d26a362bbe90fbe395736b47d9728c5"
+arch = "aarch64"
+git-tree-sha1 = "117d9b502efd3dc0e5d9411ffe692ae43e75307e"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[glmnet.download]]
-    sha256 = "c9c0da1a09a976de3e75e6da1b11bc8e7bdec17cf36fc69f88ef2c542f214868"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "c5f1e7079c71a1c224a9ec8fde564e42cb4f380265655ce5c8931f22e3b726c8"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.aarch64-linux-gnu-libgfortran4.tar.gz"
 [[glmnet]]
-arch = "x86_64"
-git-tree-sha1 = "da6fcd9cf94647e00cb654af61945deeea0757c6"
+arch = "aarch64"
+git-tree-sha1 = "e19b203fb8c6620ccc351c7d80ce992e2a5961cf"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[glmnet.download]]
-    sha256 = "6ec9199c6f567d2ac081e3fc7865474ace0dcf2be24b8edb1fe369d8827fa8c9"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-linux-gnu-libgfortran5.tar.gz"
+    sha256 = "eeda77d1d384e585ec46cb406289968ef204aa8453585d755ec57cb17e05e373"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.aarch64-linux-gnu-libgfortran5.tar.gz"
 [[glmnet]]
-arch = "x86_64"
-git-tree-sha1 = "8454e61d7238e676b28c8bea97d5516c04863c40"
+arch = "aarch64"
+git-tree-sha1 = "a573936146bcd6312328fe2e0c1da6da8d967c9c"
 libc = "musl"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[glmnet.download]]
-    sha256 = "79df4ae1d76f662e6320df6966485580475e40f3f3a8b9ea5e7357f18b5cd913"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-linux-musl-libgfortran3.tar.gz"
+    sha256 = "ca2dbb191611ad1eace10983e68a6e52ed23c7995c03e2615b04573bbbf9dd1c"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.aarch64-linux-musl-libgfortran3.tar.gz"
 [[glmnet]]
-arch = "x86_64"
-git-tree-sha1 = "0f02c0a769f0e83e03181b8df07b011def4b59ae"
+arch = "aarch64"
+git-tree-sha1 = "c6630d9db6e40c875837dd5c2bd1807568282e20"
 libc = "musl"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[glmnet.download]]
-    sha256 = "5a5c3c5972a7a03400bde49dc2997addefd8ffd9759ae6d14c309bea32deb107"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-linux-musl-libgfortran4.tar.gz"
+    sha256 = "fbba9a67110a228532200df595b240598f6d496865ec151b421acbada3ccf8cd"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.aarch64-linux-musl-libgfortran4.tar.gz"
 [[glmnet]]
-arch = "x86_64"
-git-tree-sha1 = "fa147f08193c04f43c82c92a71a2947673ce3d86"
+arch = "aarch64"
+git-tree-sha1 = "e407dbcfb9dd8b45dcbb3a058510513dffaff251"
 libc = "musl"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[glmnet.download]]
-    sha256 = "156f8d865747c8d49948d980ff3ee00a6c3a61389d45ead5a72be4ce519732b4"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-linux-musl-libgfortran5.tar.gz"
+    sha256 = "da82f4ba53dfb3cc50edb097d77c6abc07e1169bf865714568a09ccb364625b2"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.aarch64-linux-musl-libgfortran5.tar.gz"
+[[glmnet]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "970a331208a8a1c7fe6b799bb7929fefe92a3a10"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "ff720f490db5b3041d3341a33a683b8a5349a179e6fdebbdbb2f3519863a1c49"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv6l-linux-gnueabihf-libgfortran3.tar.gz"
+[[glmnet]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "309e47f9b86795af6f9eb3a86f386cd98402df28"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "aef6b6ffb07664d692064f88538fa948c23c31a5aeb5fac64d160a71cdd7b3ec"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv6l-linux-gnueabihf-libgfortran4.tar.gz"
+[[glmnet]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e199076e2b8817142dc23cd4fb855aa45800bfd3"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "fba77cdee9db32e5bb8e50bf29d68f3819f305b9bb7b322e4d869248294ab9cd"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv6l-linux-gnueabihf-libgfortran5.tar.gz"
+[[glmnet]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "ccc4c053521d71f6ad8c708fde9c3ccb4d7525a1"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "bec39e0f5fc713059e9af9ff0cb00e41c19fed36fd7bf8d68ae6c02754b310a4"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv6l-linux-musleabihf-libgfortran3.tar.gz"
+[[glmnet]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "079f96896e028b6ec55e4bb7048711973bb160c6"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "4a6d0ec5868ddabf330569ad91de2c648b970e3b161075d2c3d18e7ce4ea5ca5"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv6l-linux-musleabihf-libgfortran4.tar.gz"
+[[glmnet]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "3ae64c95bf0e1733a2e353b5094a38701a0a724f"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "f3844c9411982ebc95c45037e4d79d24aa7e79009d507a5daeade52576294b19"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv6l-linux-musleabihf-libgfortran5.tar.gz"
+[[glmnet]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5e27d2e016002ccc8f396cc6997c8bec47be8521"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "2dda7882c35bf6b504f00c188eaf576eb4bdc25a3a0322d09fa2f1d620f5a6b4"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
+[[glmnet]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ef0f09935192daccc479a4eaed7993352bd7dabe"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "8e63a89bf21eda79af22f92d973ce71ec38963a9fa71e1ee1866a829f3617acf"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
+[[glmnet]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "d737dafc3e767a6a48aa147cf34b54eca3f4755e"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "7fec0b684b25e3621bc41d8c85230cfa90a65bba6960cabd7fd0701ea2b9a7b0"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
+[[glmnet]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "96f7cd9a3b88839f2ff517310dba2b5a65f0d450"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "107da0ed753bce37471064303888102d63a508eb0284f4aa15a2d79ad1f6f231"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv7l-linux-musleabihf-libgfortran3.tar.gz"
+[[glmnet]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "1622f1f0e2bd2b6880b9d618aed61d3e546f00ff"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "ae366129676c2ee0ea0a11fe9699e38aee7307f411ab21a48bf7f8510eb72479"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv7l-linux-musleabihf-libgfortran4.tar.gz"
+[[glmnet]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "dcb07f029315213818a30d229387cf9d04b58ef9"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "fd5a50ec4c122fcf3397a0418cbce19c769b563d2b82c135fe6727eac1fbac16"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.armv7l-linux-musleabihf-libgfortran5.tar.gz"
+[[glmnet]]
+arch = "i686"
+git-tree-sha1 = "794f5b38977d8271802fbc6148e15cd3595a8d22"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "65f739ad242aa151dde0c6791c1219859914a3e4f02d68ee26be19742a33bac5"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.i686-linux-gnu-libgfortran3.tar.gz"
+[[glmnet]]
+arch = "i686"
+git-tree-sha1 = "f42f65d9f872c0ff077f31e32927e3e67eee0818"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "27a715111b4d8987ad5ed168382e748acb82bd47cb74bd441058a98f1b1c4209"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.i686-linux-gnu-libgfortran4.tar.gz"
+[[glmnet]]
+arch = "i686"
+git-tree-sha1 = "9c1f771d18ca050f388b3e8a561e9a710b034ab3"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "a0e4acab1f9dffacbe598218ee038ba123f5ef41ef80107b2030f6090ee0e432"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.i686-linux-gnu-libgfortran5.tar.gz"
+[[glmnet]]
+arch = "i686"
+git-tree-sha1 = "621bd1b2591196790108e19d589333dc48be00f4"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "8fcc2a9aed0c874d73106c0dc6ced80e621d1fcf802052ca41aedbec19ff3755"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.i686-linux-musl-libgfortran3.tar.gz"
+[[glmnet]]
+arch = "i686"
+git-tree-sha1 = "b09d286185b3143ddde91a1f9dbdd92b41a55b95"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "3b37ff69d4706d58640f69e1af89ba82b9e3a871705faf5bb9f57f481432156c"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.i686-linux-musl-libgfortran4.tar.gz"
+[[glmnet]]
+arch = "i686"
+git-tree-sha1 = "462bae1fc705c1364c5c3abdcecd05390fc26563"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "91355cc23bf892f83cb40f68f1fa72eed7d7bfe3825535db6e9c0439a5c61326"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.i686-linux-musl-libgfortran5.tar.gz"
+[[glmnet]]
+arch = "i686"
+git-tree-sha1 = "4168747f30139b559b2cae17286ccec32381455b"
+libgfortran_version = "3.0.0"
+os = "windows"
+
+    [[glmnet.download]]
+    sha256 = "e8bd279e2903ee7aebc99d086aaf209adcf13fa20327ece35cf1beaeb6940400"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.i686-w64-mingw32-libgfortran3.tar.gz"
+[[glmnet]]
+arch = "i686"
+git-tree-sha1 = "c479b30aaef423cab57940a155a2dd31966d3934"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[glmnet.download]]
+    sha256 = "4e30ae316ca65b7c31ae101b64212b5efb6bc39067e82ff966203eae26cd8f8d"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.i686-w64-mingw32-libgfortran4.tar.gz"
+[[glmnet]]
+arch = "i686"
+git-tree-sha1 = "4a8c4096952534fe7fc9e4f5e0f558b9aed04054"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[glmnet.download]]
+    sha256 = "67978c7c38efbe61637ab11dc2fb3fccdba4950921f8d70bc0853086e305c34c"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.i686-w64-mingw32-libgfortran5.tar.gz"
+[[glmnet]]
+arch = "powerpc64le"
+git-tree-sha1 = "832387907c2be6b07100537d08f064df1403ceee"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "9b959a23f68cf313e59fdbef75e327925120c946ddd77156174893e3fdc7b372"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.powerpc64le-linux-gnu-libgfortran3.tar.gz"
+[[glmnet]]
+arch = "powerpc64le"
+git-tree-sha1 = "76cee24d55b4771081736b390dd5f04a959bef35"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "25ba52ec36559952ac135e5868ee7f8e75325c1f48bbc830f2a9a1194094599d"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.powerpc64le-linux-gnu-libgfortran4.tar.gz"
+[[glmnet]]
+arch = "powerpc64le"
+git-tree-sha1 = "0ee38c2a438d07fc9e59e98f4c923d94bca3159b"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "071d269ae9a0eb5c8732bfc8a0d73866a955984504812874de20e7e87b74410f"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.powerpc64le-linux-gnu-libgfortran5.tar.gz"
 [[glmnet]]
 arch = "x86_64"
-git-tree-sha1 = "061bb27a572f37fc82a97072b6ec5f9731785ac3"
+git-tree-sha1 = "ee4bd778f74a9d5fac290d083f61e7af6527ada1"
+libgfortran_version = "3.0.0"
+os = "macos"
+
+    [[glmnet.download]]
+    sha256 = "121da36dd2c34f643282302761a9f4f7b83e5e5d2363f10753f9f8fb1f5abf7d"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-apple-darwin-libgfortran3.tar.gz"
+[[glmnet]]
+arch = "x86_64"
+git-tree-sha1 = "744107692da9ceb250cf524649e150abc5141e43"
+libgfortran_version = "4.0.0"
+os = "macos"
+
+    [[glmnet.download]]
+    sha256 = "8a3d1c4fd675ecad861f512e3b8402f05b3c497ae707efc09957aac34477c9a5"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-apple-darwin-libgfortran4.tar.gz"
+[[glmnet]]
+arch = "x86_64"
+git-tree-sha1 = "842d458f692fe685865b9516f73df085db92ef3d"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[glmnet.download]]
+    sha256 = "670d24dc09d57d38600b7f13901b5bda39f500aed1517b2fd545aafa63d21131"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-apple-darwin-libgfortran5.tar.gz"
+[[glmnet]]
+arch = "x86_64"
+git-tree-sha1 = "838e021fc0798fe74f2d80717d046f25eb40d319"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "d2277b9b7c8897643f6042479357eb4783df5bd05d973cff7e0678d18e3da0de"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-linux-gnu-libgfortran3.tar.gz"
+[[glmnet]]
+arch = "x86_64"
+git-tree-sha1 = "6b870e9590ec9f6a7eb89769f64712fdc86af7aa"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "74ff5083c84bd6740e1c655edf3b0d83765c33bd6261740c961dfc3f587463d3"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-linux-gnu-libgfortran4.tar.gz"
+[[glmnet]]
+arch = "x86_64"
+git-tree-sha1 = "18716554d448f94bdbfc191dab0a912d6cea74cc"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "a6d218f1068047bcaf66122425e73fd3d390b59a790a3fb49a8f8225899c3b60"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[glmnet]]
+arch = "x86_64"
+git-tree-sha1 = "83e9d152b49c3f36849d8cc886ccf1dd2259ff58"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "513879916956657f558c36fc7c3452428bba22bb76f38690980b789b62942958"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-linux-musl-libgfortran3.tar.gz"
+[[glmnet]]
+arch = "x86_64"
+git-tree-sha1 = "fbff2b2f7e43038017327173e621f5db133575ba"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "bc4d3c64bbb23c6dde2f92566757f9b3b7cecdd8e30baedcead0032ed4fe1d4e"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-linux-musl-libgfortran4.tar.gz"
+[[glmnet]]
+arch = "x86_64"
+git-tree-sha1 = "c62f58d0d4a77db3c6292082b332c44a42882416"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[glmnet.download]]
+    sha256 = "98e531be95cafc39e516b306a93c746cf996467489be35214998b54010963a96"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-linux-musl-libgfortran5.tar.gz"
+[[glmnet]]
+arch = "x86_64"
+git-tree-sha1 = "c851d939a838ed1128e21802e89db780fb2b5b78"
 libgfortran_version = "3.0.0"
 os = "freebsd"
 
     [[glmnet.download]]
-    sha256 = "43902b336a18991f579933431ecdff358c20bf35a1384c37c6c927c1569edbec"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-unknown-freebsd-libgfortran3.tar.gz"
+    sha256 = "409b12121e6e2625c698dfaf592b9bf5de2351d10debcd094f4399602b71d784"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-unknown-freebsd-libgfortran3.tar.gz"
 [[glmnet]]
 arch = "x86_64"
-git-tree-sha1 = "ad2670fcd5587118858e98e8eecd711e68ebb72b"
+git-tree-sha1 = "707242dda0faf8a5cdf6d54f6fe2e3e7805b23ac"
 libgfortran_version = "4.0.0"
 os = "freebsd"
 
     [[glmnet.download]]
-    sha256 = "513957ed61c8551d6feb4bdb2cd69ccde3d07e51857b6c4f318bd9ec6d8827e7"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-unknown-freebsd-libgfortran4.tar.gz"
+    sha256 = "71c3932fce76ebff0e323bc6be6d322781e58aea19343aafd55df33ce9b5b4ae"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-unknown-freebsd-libgfortran4.tar.gz"
 [[glmnet]]
 arch = "x86_64"
-git-tree-sha1 = "b48d9033ecebf940a3ce348c6af5ba4986703a75"
+git-tree-sha1 = "f3466b7ca68fd1d0d3367db78b3fd583236038c1"
 libgfortran_version = "5.0.0"
 os = "freebsd"
 
     [[glmnet.download]]
-    sha256 = "3bd388207706536e56bb1826d37d6f73da2c9b629774f29e1edcbb3a496118f7"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-unknown-freebsd-libgfortran5.tar.gz"
+    sha256 = "4e0fe8d8ea8daf99199bfea13f538cccc1e9c9a3bb1ca27fb1539de1a77e4da7"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-unknown-freebsd-libgfortran5.tar.gz"
 [[glmnet]]
 arch = "x86_64"
-git-tree-sha1 = "8b431cdf6880902369c55c3d22e8c85e9f622c35"
+git-tree-sha1 = "62adfd1673742739ae1229922f5fc23aa9e77ab8"
 libgfortran_version = "3.0.0"
 os = "windows"
 
     [[glmnet.download]]
-    sha256 = "b87ab08cfa781122ffb42e4b6260c49e1353efe19f20a5b03e22611801381e5f"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-w64-mingw32-libgfortran3.tar.gz"
+    sha256 = "7059f25725bce391e2516fc879707acd019f5aedd798bc8f79fc5550755ab975"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-w64-mingw32-libgfortran3.tar.gz"
 [[glmnet]]
 arch = "x86_64"
-git-tree-sha1 = "35cacccd6a2d0e7b39e4223a5faed6540265c9d7"
+git-tree-sha1 = "776ffa2b72d516cbca636c5571fdc5082c651931"
 libgfortran_version = "4.0.0"
 os = "windows"
 
     [[glmnet.download]]
-    sha256 = "fcfc76c51ebf4301b1e84477ec3321c8dbb212c9c17992869c4733199715a4a3"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-w64-mingw32-libgfortran4.tar.gz"
+    sha256 = "89b1f678ae269aef2bc67336b7216862998d9217d9af7c8fb8194c3b6a9b711d"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-w64-mingw32-libgfortran4.tar.gz"
 [[glmnet]]
 arch = "x86_64"
-git-tree-sha1 = "5b5961c2da99d62f86b842dd477510f61eec241a"
+git-tree-sha1 = "4381739ddb586f9e5753b9caca40a8704b36930b"
 libgfortran_version = "5.0.0"
 os = "windows"
 
     [[glmnet.download]]
-    sha256 = "75aab34b448b3fec9e26f23f864dd3f379c8dd523f8a93fd77b4452ce444532a"
-    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v4.0.2+0/glmnet.v4.0.2.x86_64-w64-mingw32-libgfortran5.tar.gz"
+    sha256 = "26b841c416f476af953da8ce21879bd5f3ec6362ba279abad091a18cb1263c78"
+    url = "https://github.com/JuliaBinaryWrappers/glmnet_jll.jl/releases/download/glmnet-v2.0.13+0/glmnet.v2.0.13.x86_64-w64-mingw32-libgfortran5.tar.gz"
